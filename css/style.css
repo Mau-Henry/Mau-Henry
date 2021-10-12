@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: black;
+    background: linear-gradient(to bottom, #faa8a5, white);
+    font-family: 'Poiret One', cursive;
+        
+}
+
+div{
+    display: inline;
+    margin-left: 80%    ;
+}
+
+#botbus{
+    display: inline;
+    
+}
+#logo1{
+    border-radius: 0px;
+    padding-left: 50%;
+    margin-top: 5px;
+}
+nav{
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 22px;    
+    font-family: 'Poiret One', cursive;
+    word-spacing: 25px;
+    }
+
+#ind{
+    display:inline;
+}
+
+#col{
+    display:inline
+}
+
+#mens{
+    display:inline
+}
+
+#nos{
+    display:inline
+}
+
+#cont{
+    display:inline
+}
+
+a:hover{
+    color:white
+    }
+a:visited{
+    color: white
+}    
+a{
+    text-decoration: black;
+}
+#caratula{
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 35%;
+        }
+
+#colecciones{
+    /** background-color: rgb(173, 173, 173); **/
+    /** height: 100px; **/
+    /** display: grid; **/
+    /*** grid-template-columns: 50% 50% **/
+}
+
+.colecc{
+    /** height: 50px;
+    width: 50px;
+    border: 1px solid black **/
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+#whats{
+    margin-left: 90%;
+    width: 45px;
+    padding-bottom: 15px;
+}
+footer{
+    color:white;
+    background-color: black;
+    padding-top: 10px;
+    font-family: 'Poiret One', cursive;
+        
+}
