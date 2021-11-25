@@ -13,9 +13,30 @@ body{
         
 }
 
-div{
-    display: inline;
-    margin-left: 80%    ;
+div{ 
+    color: black;
+    margin-left: 25%;
+}
+
+.card{
+    background-color: white;
+}
+
+.card1{
+    background-color: white;
+}
+
+
+.card-img-top{
+    align-content:space-around;
+    max-height: 220px;
+    max-height: 220px;
+}
+
+.card-img-top1{
+    align-content:space-around;
+    max-height: 220px;
+    max-height: 220px;
 }
 
 #botbus{
@@ -65,7 +86,35 @@ a:visited{
     color: white
 }    
 a{
-    text-decoration: black;
+    text-decoration:black;
+}
+a.LinkFaceB:visited{
+    color:black
+}
+a.LinkFaceB:hover{
+        color:black
+        
+} 
+a.LinkInstag:visited{
+    color:black
+}
+a.LinkInstag:hover{
+        color:black
+        
+} 
+a.LinkPinter:visited{
+    color:black
+}
+a.LinkPinter:hover{
+        color:black
+        
+} 
+a.LinkWhats:visited{
+    color:black
+}
+a.LinkWhats:hover{
+        color:black
+        
 }
 #caratula{
     border-radius: 15px;
@@ -88,28 +137,239 @@ a{
 
 .card {
     /* Add shadows to create the "card" effect */
+    margin-left: 35%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    border-radius: 16px;
+    padding: 16px;
+    text-align:center;
+        
   }
-  
+
+     
+ .card1 {
+    margin-left: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center; 
+      
+    
+  } 
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
   }
   
+/* On mouse-over, add a deeper shadow */
+.card1:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+}
+
   /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
   }
-#whats{
+
+  .btn-outline-primary{
+       background-color:grey;
+    
+  }
+
+  .btn-outline-primary1{
+    background-color: grey;
+  }
+
+img.Alegria-Bronce1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+
+/*.AlBr1{
+text-align:center   ;
+}
+*/
+img.Alegria-Cobre1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+   
+img.Alegria-Dorada1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.Alegria-Negra1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.Alegria-Vibora1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.BubbleGum1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CandyAmNeg1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CandyAqua1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CandyBlanca1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CandyLilaAq1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CandyLilaBcoMB1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CandyLilaBcoMM1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CandyNegra1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CandyPaloRosa1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CookieCafe1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.CookieTabaco1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.Lolli-Azul1{ 
+  
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; inline-size: auto; width: 350px; 
+     
+}
+img.Lolli-Negra{ 
+    
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+
+img.Lolli-Prosa{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.Lolli-Roja{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.MilkshakeComb{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.MilkshakePanal{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.MilkshakeTabaco{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.JellyCafe{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.JadeAzul{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.JadeCrudoTab{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.JadeVino{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.JellyAmarillo{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.JellyRosaMet{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.JellyNegro{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.CoffeeVino{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.OpaloAmarillo{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.OpaloLeopardo{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+img.PlataRojo{ 
+   
+    padding: 15px; margin: 10px; border: 1px solid palevioletred; width: 350px; 
+}
+#whats {
     margin-left: 90%;
     width: 45px;
     padding-bottom: 15px;
+}
+#whatsCont {
+    width: 45px;
+   
+}
+#FaceLogo {
+    width: 45px;
+    
+}
+#InstaLogo {
+    width: 45px;
+    
+}
+#PinterLogo {
+    width: 45px;
+    
 }
 footer{
     color:white;
     background-color: black;
     padding-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
     font-family: 'Poiret One', cursive;
         
 }
+
